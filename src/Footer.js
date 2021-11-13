@@ -14,7 +14,7 @@ import {useDataLayerValue} from "./DataLayer";
 
 const Footer = () => {
     const [{currentTrack, playing, playElement}, dispatch] = useDataLayerValue();
-    console.log('current',currentTrack)
+    // console.log('current',currentTrack)
 
     const play = () => {
         if (!playing) {
